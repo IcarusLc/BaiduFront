@@ -1,33 +1,40 @@
 <html lang="zh-CN"><head>
 	<meta charset="UTF-8">
-	<title>任务三</title>
+	<title>任务四</title>
 </head>
 <style>
+body{
+	margin: 0;
+	padding: 0;
+}
 .main{
 	display: block;	
 }
 .cen{
-	position: relative;
+	position: absolute;
 	width: 550px;
 	height: 350px;
+	top: 50%;
+	left: 50%;
+	overflow: hidden;
 	background-color: #333333;
+	margin: -175px 0 0 -275px;
 }
 .left{
 	position: absolute;
-	width: 50px;
-	height: 50px;
+	width: 100px;
+	height: 100px;
 	background-color: #66ccff;
-	border-radius: 50px 0 0 0;
-	top:0px;
+	border-radius:50%;
+	top:-50px;left:-50px;
 }
 .right{
 	position: absolute;
-	width: 50px;
-	height: 50px;
+	width: 100px;
+	height: 100px;
 	background-color: #66ccff;
-	border-radius: 50px 0 0 0;
-	bottom: 0px;
-	right:0px;
+	border-radius:50%;
+	bottom:-50px;right:-50px
 }
 </style>
 <body>
